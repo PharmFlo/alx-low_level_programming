@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 void puts_half(char *str);
 
