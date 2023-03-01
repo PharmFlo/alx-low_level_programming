@@ -1,18 +1,16 @@
-#include 'main.h'
+#include <main.h>
+
+void puts_half(char *str);
+
 /**
- * puts_half - returns the length of a string
- * @s: string
- * Return: length
+ * puts_half -  function that prints half of a string
+ *
+ * Return: Always 0
  */
-int puts_half(char *s)
+int puts_half(void)
 {
-int longi = 0;
-
-while (*s != '\0')
-{
-longi++;
-s++;
-}
-
-return (longi);
+char *str;
+str = "Holberton!";
+puts_half(str);
+return (0);
 }
